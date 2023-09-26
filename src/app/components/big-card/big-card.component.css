@@ -1,0 +1,9 @@
+.container-big-card{
+    border: solid #fff 2px;
+    width: 400px;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

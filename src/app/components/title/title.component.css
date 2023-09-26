@@ -1,0 +1,17 @@
+.container-menu{
+    color: #fff;
+
+}
+
+.container-menu > h1{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 130px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.container-menu > hr{
+    margin: 20px 0 5px 0;
+}
