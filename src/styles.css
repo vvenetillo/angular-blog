@@ -7,3 +7,11 @@
     color: #fff;
     font-family: "Segoe UI"
 }
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style:  none;
+}
