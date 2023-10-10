@@ -2,16 +2,15 @@
   <div class="container_small-card-content">
     <div class="small-card-photo">
       <img
-        src="https://store-images.s-microsoft.com/image/apps.37552.69418729968339172.e0511a41-4d32-4c9b-b786-629dba4b131f.fe95c59b-f744-4def-9235-01e093c61938?q=90&w=480&h=270"
+        src="{{photocover}}"
         srcset=""
       />
     </div>
 
     <div class="small-card-title">
-      <h1><a href="#"> Saiu a nova versão do Angular</a></h1>
+      <h1><a [routerLink] = "['content', ID]">{{cardTitle}}</a></h1>
     </div>
   </div>
-
   <div class="container_small-card_separator">
     <hr />
   </div>

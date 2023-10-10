@@ -1,15 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
 *{
-    background-color: #111111;
+    background-color: #171515;
     margin: 0;
     paddin: 0;
     box-sizing: border-box;
     color: #fff;
     font-family: "Segoe UI"
 }
-
+@media screen and (max-width: 750px){
+    body{
+        min-width: 400px;
+        display: flex;
+        justify-content: row;
+        align-item: center;
+    }
+}
 a{
     text-decoration: none;
+}
+
+a:hover{
+    color: #f9b6b6;
 }
 
 li{

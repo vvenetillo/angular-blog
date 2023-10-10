@@ -11,6 +11,12 @@
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 400px){
+    .container-menu > h1{
+        min-width: 350px;
+        font-size: 2rem;
+    }
+}
 
 .container-menu > hr{
     margin: 20px 0 5px 0;
